@@ -1,0 +1,14 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name ="EasySSO: Suite Runner File" >
+    <listeners>
+        <listener class-name ="it.org.techtime.jira.easysso.seleniumtests.suiteutils.SuiteFailListener" />
+    </listeners>
+
+    <suite-files>
+        <suite-file path ="junit-runner-file.xml"/>
+        <suite-file path ="smoketests-suite.xml"/>
+        <suite-file path ="link-validation-suite.xml"/>
+        <suite-file path ="footer-suite.xml"/>
+    </suite-files>
+</suite>

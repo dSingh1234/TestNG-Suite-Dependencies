@@ -1,0 +1,13 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name ="EasySSO: Link Validation Suite" >
+    <test name ="Links Validation Tests" verbose ="2" >
+        <!--Pre condition for test: Make sure there is no jespa file uploaded in plugin or else some of the links on NTLM/Kerberos screen will disappear and the case would fail.-->
+        <classes>
+            <class name ="it.org.techtime.jira.easysso.seleniumtests.linksvalidationsuite.AdminScreenTestSuiteParent"/>
+<!--            <class name ="it.org.techtime.jira.easysso.seleniumtests.linksvalidationsuite.AdvanceConfigScreenTestSuiteParent"/>-->
+<!--            <class name ="it.org.techtime.jira.easysso.seleniumtests.linksvalidationsuite.TroubleshootOptionsScreenTestSuiteParent"/>-->
+<!--            <class name ="it.org.techtime.jira.easysso.seleniumtests.linksvalidationsuite.NtlmKerberosScreenTestSuiteParent"/>-->
+        </classes>
+    </test>
+</suite>

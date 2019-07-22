@@ -1,0 +1,9 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name ="EasySSO: Junit Runner File" >
+    <test name ="Junit Runner Test" verbose ="2" junit ="true">
+        <classes>
+            <class name ="it.org.techtime.jira.easysso.TestSuite"/>
+        </classes>
+    </test>
+</suite>

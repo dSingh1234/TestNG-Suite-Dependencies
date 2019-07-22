@@ -1,0 +1,14 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name ="EasySSO: Smoke Suite" >
+    <test name ="Smoke Tests" verbose ="2" >
+        <classes>
+            <class name ="it.org.techtime.jira.easysso.seleniumtests.smoketests.TechTimeCoreInstallationTest"/>
+<!--            <class name ="it.org.techtime.jira.easysso.seleniumtests.smoketests.TechTimeCoreEnableTest"/>-->
+<!--            <class name ="it.org.techtime.jira.easysso.seleniumtests.smoketests.EasySsoInstallationTest"/>-->
+<!--            <class name ="it.org.techtime.jira.easysso.seleniumtests.smoketests.EasySsoEnableTest"/>-->
+<!--            <class name ="it.org.techtime.jira.easysso.seleniumtests.smoketests.LicenseVerificationTest"/>-->
+<!--            <class name ="it.org.techtime.jira.easysso.seleniumtests.smoketests.TechTimeAddOnsPanelTests"/>-->
+        </classes>
+    </test>
+</suite>
